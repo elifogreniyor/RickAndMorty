@@ -1,0 +1,12 @@
+//
+//  RMSingletLocation.swift
+//  RickAndMorty
+//
+//  Created by Elif Pamuk on 27.11.2023.
+//
+
+import Foundation
+struct RMSingleLocation: Codable {
+    let name: String
+    let url : String
+}
