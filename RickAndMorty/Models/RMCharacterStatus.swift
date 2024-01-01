@@ -9,7 +9,7 @@ import Foundation
 
 enum RMCharacterStatus: String, Codable {
     // 'Alive', 'Dead' or 'Unknown'
-    case alive = "Alive"
-    case dead = "Dead"
+    case alive = "Alive Character"
+    case dead = "Dead Character"
     case unknown = "unknown"
 }
